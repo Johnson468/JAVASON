@@ -14,7 +14,7 @@ public class RequestBuilder {
 	
 	private Map<String, String> additionalAttributes = new HashMap<String,String>();
 	/*
-	 * Constructor passing a URL and API key
+	 * Constructor passing a URL
 	 */
 	public RequestBuilder(String URL) {
 		this.URL = URL;
